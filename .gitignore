@@ -1,0 +1,7 @@
+bin
+parts
+lib
+include
+eggs
+develop-eggs
+.mr.developer.cfg

@@ -313,11 +313,11 @@ module global:
 
   >>> import z3c.taskqueue
   >>> z3c.taskqueue.processor.THREAD_STARTUP_WAIT
-  0.050000000000000003
+  0.05...
 
 On my machine this number seems to work well. On slower machines you might
 want to raise that number.
 
 Let's give Python enough time to stop all the threads.
 
-  >>> time.sleep(0.05)
+  >>> time.sleep(z3c.taskqueue.processor.THREAD_STARTUP_WAIT)

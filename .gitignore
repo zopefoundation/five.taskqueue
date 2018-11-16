@@ -1,7 +1,10 @@
-bin
-parts
-lib
-include
-eggs
-develop-eggs
+bin/
+lib/
+include/
+pip-selfcheck.json
+.installed.cfg
 .mr.developer.cfg
+parts/
+eggs/
+develop-eggs/
+src/*.egg-info

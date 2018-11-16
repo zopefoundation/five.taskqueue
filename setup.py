@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.3.1.dev0'
+version = '0.4.0'
 
 setup(name='five.taskqueue',
       version=version,
@@ -12,7 +12,8 @@ setup(name='five.taskqueue',
         "Programming Language :: Python",
         "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 2.7",
-        "Framework :: Zope2 :: 2",
+        "Framework :: Zope :: 2",
+        "Framework :: Zope2",
         ],
       keywords='tasks queue jobs cron zope',
       author='Godefroid Chapelle',

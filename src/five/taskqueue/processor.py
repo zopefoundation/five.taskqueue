@@ -35,7 +35,7 @@ class Z2PublisherMixin(object):
             try:
                 root = conn.root()
                 request['PARENTS'] = [root['Application']]
-                ZPublisher.Publish.publish(request, 'Zope2', [None])
+                ZPublisher.Publish.publish(request, 'five.taskqueue.zope_system', [None])
                 result = request.response.body
             except NotFound, error:
                 log.warning('NotFound when traversing to %s' % '/'.join(path))

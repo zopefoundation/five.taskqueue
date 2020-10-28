@@ -5,5 +5,5 @@ Overview
 
 |buildstatus|_
 
-.. |buildstatus| image:: https://api.travis-ci.org/zopefoundation/five.taskqueue.png?branch=master
-.. _buildstatus: https://travis-ci.org/zopefoundation/five.taskqueue
+.. |buildstatus| image:: https://api.travis-ci.com/zopefoundation/five.taskqueue.png?branch=master
+.. _buildstatus: https://travis-ci.com/zopefoundation/five.taskqueue
